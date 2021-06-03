@@ -4,6 +4,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
 .container {
   padding: 15% 15%;
   display: flex;
@@ -29,11 +33,13 @@ html {
   font-size: 30px;
   font-weight: bold;
   color: white;
+  font-family: 'Big Shoulders Display', cursive;
 }
 
 .card p {
   line-height: 25px;
   color: white;
+  font-size: 15px;
 }
 
 .card a {
@@ -44,6 +50,7 @@ html {
   text-decoration: none;
   background-color: white;
   cursor: pointer;
+  font-size: 15px;
 }
 
 .container .card a:hover {
@@ -76,7 +83,7 @@ html {
 }
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
   .container {
     flex-wrap: nowrap;
     padding: 10%;
